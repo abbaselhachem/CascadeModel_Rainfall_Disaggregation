@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on %(date)s
+Created on 20/9/2017
 
-@author: EL Hachem Abbas, IWS
+@author: EL Hachem Abbas, IWS Stuttgart
 """
 
 '''
@@ -1768,6 +1768,7 @@ lorenz_sim_L2 = buildLorenzCurve_Simulations(evaluation_L1, cascade_level_2)
 2. Accuracy check , quantify errors, why the model fails?
 3. long term effect of the algorithm, feed back loop
 '''
+
 STOP = timeit.default_timer()  # Ending time
 print(('\n\a\a\a Done with everything on %s. Total run time was'
        ' about %0.4f seconds \a\a\a' % (time.asctime(), STOP-START)))
