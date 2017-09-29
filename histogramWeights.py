@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on %(date)s
+Created on 20/9/2017
 
-@author: EL Hachem Abbas, IWS
+@author: EL Hachem Abbas, IWS Stuttgart
 """
 
 ''' this script is for plotting the result of cascadeModel.py:
@@ -1613,10 +1613,4 @@ max_l2 = distMaximums(in_df_15min_orig, dfs_files_sim_2, cascade_level_2)
 STOP = timeit.default_timer()  # Ending time
 print(('\n\a\a\a Done with everything on %s. Total run time was'
        ' about %0.4f seconds \a\a\a' % (time.asctime(), STOP-START)))
-
-
-#                x3 = np.concatenate([y3.values[::-1], y3.values[[0]]])
-#                y3 = np.arange(y3.values.size+1)/len(y3.values)
-#                plt.scatter(x3,y3, c='k')
-
 
