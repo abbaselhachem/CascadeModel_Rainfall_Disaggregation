@@ -45,9 +45,7 @@ plt.ioff()
 print('\a\a\a\a Started on %s \a\a\a\a\n' % time.asctime())
 START = timeit.default_timer()  # to get the runtime of the program
 
-main_dir = (r'X:\hiwi\El Hachem\Peru_Project\CascadeModelling')
-# main_dir = r'/home/abbas/Desktop/peru_cascade'
-
+# main_dir = ....
 os.chdir(main_dir)
 
 # def data dir
