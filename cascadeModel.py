@@ -78,8 +78,7 @@ print('\a\a\a\a Started on %s \a\a\a\a\n' % time.asctime())
 START = timeit.default_timer()  # to get the runtime of the program
 
 # define main and output dir
-main_dir = (r'X:\hiwi\El Hachem\Peru_Project\CascadeModelling')
-# main_dir = r'/home/abbas/Desktop/peru_cascade'
+# main_dir = .....
 os.chdir(main_dir)
 
 out_dir = os.path.join(main_dir, r'CascadeModel\Weights')
@@ -87,7 +86,7 @@ if not os.path.exists(out_dir):
     os.mkdir(out_dir)
 
 # define rainfall data directory
-data_dir = r'X:\hiwi\El Hachem\Peru_Project'
+# data_dir = ....
 
 # read 5min data file, original rainfall values
 in_5m_df_file = os.path.join(data_dir, 'Rain_mm_Tot_T5 (mm, Tot).csv')
