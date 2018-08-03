@@ -1,4 +1,4 @@
-# Cascade-Model-Rainfall-Disaggregation
+# Cascade Model Rainfall Disaggregation
 Disaggregate rainfall time series using a multiplicative discrete random cascade model.
 Parameters of the model are identified using the maximum likelihood method.
 The model is evaluated using the fitted parameters and rainfall is simulated.
