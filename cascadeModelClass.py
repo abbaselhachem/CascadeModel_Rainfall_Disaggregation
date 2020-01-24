@@ -3,7 +3,7 @@
 Finalized on % 01.06.2018
 
 @author: EL Hachem Abbas, IWS
-Institut für Wasser- und Umweltsystemmodellierung - IWS
+Institut fuer Wasser- und Umweltsystemmodellierung - IWS
 """
 from collections import Counter
 import os
@@ -50,9 +50,9 @@ W1 = 1 means all rainfall fell in 1st sub-interval P (W=1)
 For calculating P01, the relation between the volumes and the weights is
 modeled through a logistic regression.
 For calculating the prob P (0<W<1) a beta distribution is assigned
-and using the maximum likelihood method the parameter ß is estimated
+and using the maximum likelihood method the parameter ÃŸ is estimated
 for every level and every station.
-The MDRC has two parameters P01 and ß per level.
+The MDRC has two parameters P01 and ÃŸ per level.
 
 Simulating:
 once parameters for every level and every station have been estimated
@@ -72,7 +72,7 @@ plot the results in a different script (plotting_results_cascade_model.py)
 
 Litterature for better understanding everything:
 
-Mcintyre, Neil & Bárdossy, András. (2017).
+Mcintyre, Neil & BÃ¡rdossy, AndrÃ¡s. (2017).
 Using Probable Maximum Precipitation to Bound the Disaggregation of Rainfall.
 Water. 9. 496. 10.3390/w9070496.
 
